@@ -5,7 +5,7 @@ const events = [
     name: "Haladi",
     date: "May 06, 2026",
     time: "4:00 PM onwards",
-    venue: "Groom Home,Hire Kolachi , Huvinahadagali(Tq) , Vijayanagara (Dist)",
+    venue: "Groom's & Bride's Home,Hire Kolachi , Huvinahadagali(Tq) , Vijayanagara (Dist)",
     description: "A sacred ceremony of blessings with turmeric",
   },
   {
