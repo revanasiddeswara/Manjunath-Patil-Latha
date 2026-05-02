@@ -8,7 +8,11 @@ import couple4 from "../../assets/4.jpeg";
 import couple5 from "../../assets/5.jpeg";
 import couple6 from "../../assets/6.jpeg";
 import couple7 from "../../assets/7.jpeg";
-const images = [couple1, couple2, couple3, couple4,couple5,couple6,couple7];
+import couple8 from "../../assets/8.jpeg";
+import couple9 from "../../assets/9.jpeg";
+import couple10 from "../../assets/10.jpeg";
+import couple11 from "../../assets/11.jpeg";
+const images = [couple1, couple2, couple3, couple4,couple5,couple6,couple7,couple8,couple9,couple10,couple11];
 
 const PhotoSlider = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
@@ -84,11 +88,13 @@ const PhotoSlider = () => {
   transition={{ duration: 5, ease: "easeOut" }}
   className="w-full flex items-center justify-center bg-black"
 >
+  <div className="w-full h-[420px] md:h-[550px]">
   <img
     src={image}
     alt={`Couple moment ${index + 1}`}
-    className="max-h-[500px] md:max-h-[600px] w-auto object-contain"
+    className="w-full h-full object-cover"
   />
+</div>
 </motion.div>
 
                   {/* Soft Vignette */}

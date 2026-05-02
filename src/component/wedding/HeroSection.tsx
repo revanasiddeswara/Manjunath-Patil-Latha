@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroImage from "@/assets/hero.png";
+import heroImage from "@/assets/8.jpeg";
 import Countdown from "@/component/wedding/Countdown";
 
 const HeroSection = () => {
@@ -52,7 +52,7 @@ return ( <section className="relative h-screen w-full overflow-hidden">
   <div className="absolute inset-0 bg-black/55 md:bg-black/45 z-[1]" />
 
   {/* Content */}
-  <div className="relative z-10 flex h-full flex-col items-center justify-end px-4 pb-28 md:pb-40 text-center">
+  <div className="relative z-10 flex h-full flex-col items-center justify-end px-2  md:pb-10 text-center">
 
     {/* Names */}
     <div className="flex flex-col items-center gap-4 md:flex-row md:gap-8">
